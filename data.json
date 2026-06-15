@@ -1,5 +1,7 @@
 {
-  "bold_names": ["Dongwon Seo"],
+  "bold_names": [
+    "Dongwon Seo"
+  ],
   "profile": {
     "name": "서동원 | Dongwon Seo",
     "english_name": "Dongwon Seo",
@@ -25,10 +27,7 @@
       "year": "2025",
       "title": "Vertical Contact/Separation Triboelectric Generator Utilizing Surface Characteristics of Metal-Organic Frameworks",
       "authors": "Kyoung-Hwan Kim, Jimin Kong, Dongwon Seo, and Jihoon Chung*",
-      "journal_name": "Journal of the Korean Society of Manufacturing Process Engineers (KCI)",
-      "journal_info": "",
-      "link_text": "",
-      "link_url": ""
+      "journal_name": "Journal of the Korean Society of Manufacturing Process Engineers (KCI)"
     },
     {
       "year": "2025",
@@ -74,6 +73,12 @@
       "journal_info": "(2024 IF: 13.2, JCR Top 3%)",
       "link_text": "DOI",
       "link_url": "https://www.sciencedirect.com/science/article/abs/pii/S1385894726045705"
+    },
+    {
+      "year": "2026",
+      "title": "Recycled Aramid Film-Enabled Stochastic Discharge Triboelectric Nanogenerator for Self-Powered Cryptographic Seed Generation",
+      "authors": "Dongwon Seo, Youn Seo Lee, Seokjin Kim, Jang‒Woo Han, Hyun Chan Kim*, and Jihoon Chung*",
+      "journal_name": "Under Review"
     }
   ],
   "conferences": [
@@ -91,13 +96,31 @@
     }
   ],
   "education": [
-    { "title": "M.S. in Mechanical Engineering", "description": "Kumoh National Institute of Technology, 2024 - Present" },
-    { "title": "B.S. in Mechanical Engineering", "description": "Kumoh National Institute of Technology, 2018 - 2024" },
-    { "title": "Exchange student", "description": "Heilbronn university of applied sciences, Germany" }
+    {
+      "title": "M.S. in Mechanical Engineering",
+      "description": "Kumoh National Institute of Technology, 2024 - Present"
+    },
+    {
+      "title": "B.S. in Mechanical Engineering",
+      "description": "Kumoh National Institute of Technology, 2018 - 2024"
+    },
+    {
+      "title": "Exchange student",
+      "description": "Heilbronn university of applied sciences, Germany"
+    }
   ],
   "awards": [
-    { "title": "Best Paper award (우수논문상)", "description": "The Korean Society of Manufacturing Process Engineers(KSMPE) Fall Conference" },
-    { "title": "Nation President Scholarship for Graduated Student (대학원 대통령 과학 장학금)", "description": "Korea Ministry of Science and ICT (MIST) 2025~2026" },
-    { "title": "Excellence Master's Scholarship for STEM (이공계 우수 석사 장학)", "description": "Korea Ministry of Science and ICT (MIST) 2025~2026" }
+    {
+      "title": "Best Paper award (우수논문상)",
+      "description": "The Korean Society of Manufacturing Process Engineers(KSMPE) Fall Conference"
+    },
+    {
+      "title": "Nation President Scholarship for Graduated Student (대학원 대통령 과학 장학금)",
+      "description": "Korea Ministry of Science and ICT (MIST) 2025~2026"
+    },
+    {
+      "title": "Excellence Master's Scholarship for STEM (이공계 우수 석사 장학)",
+      "description": "Korea Ministry of Science and ICT (MIST) 2025~2026"
+    }
   ]
 }
