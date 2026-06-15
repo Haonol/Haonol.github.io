@@ -77,9 +77,18 @@
     }
   ],
   "conferences": [
-    { "title": "Pantograph Structure based Self-powered Force Sensor", "description": "SPIE in Los Angeles 2024" },
-    { "title": "Optimized Spinning-Wheel Design for Enhanced Electrical Output", "description": "KSMPE Fall Conference 2024" },
-    { "title": "The study of composite friction reduction utilizing Al(OH)3 and UIO-66-NH2", "description": "KSCM fall Conference 2025" }
+    {
+      "title": "Pantograph Structure based Self-powered Force Sensor",
+      "description": "SPIE in Los Angeles 2024"
+    },
+    {
+      "title": "Optimized Spinning-Wheel Design for Enhanced Electrical Output",
+      "description": "KSMPE Fall Conference 2024"
+    },
+    {
+      "title": "The study of composite friction reduction utilizing Al(OH)3 and UIO-66-NH2",
+      "description": "KSCM fall Conference 2025"
+    }
   ],
   "education": [
     { "title": "M.S. in Mechanical Engineering", "description": "Kumoh National Institute of Technology, 2024 - Present" },
