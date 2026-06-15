@@ -1,0 +1,51 @@
+content:
+  - name: portfolio
+    label: 포트폴리오 내용
+    type: file
+    path: data.json
+    fields:
+      - name: profile
+        label: 프로필
+        type: object
+        fields:
+          - { name: name, label: 이름 (표시용), type: string }
+          - { name: english_name, label: 영문 이름 (상단 로고/푸터), type: string }
+          - { name: affiliation, label: 소속, type: text }
+          - { name: body, label: 소개글, type: text }
+          - { name: avatar, label: 프로필 사진 URL, type: string }
+          - { name: cv_link, label: CV 링크 URL, type: string }
+          - { name: google_scholar, label: Google Scholar URL, type: string }
+          - { name: email, label: 이메일, type: string }
+          - { name: linkedin, label: LinkedIn URL (없으면 #), type: string }
+      - name: publications
+        label: 논문 및 저서
+        type: object
+        list: true
+        fields:
+          - { name: year, label: 연도, type: string }
+          - { name: title, label: 제목, type: text }
+          - { name: authors, label: 저자 (강조는 <strong>이름</strong>), type: text }
+          - { name: journal, label: 저널/학회 (이탤릭은 <em>이름</em>), type: text }
+          - { name: link_text, label: 링크 텍스트 (예 DOI, 없으면 비움), type: string }
+          - { name: link_url, label: 링크 URL (없으면 비움), type: string }
+      - name: conferences
+        label: 학회 활동
+        type: object
+        list: true
+        fields:
+          - { name: title, label: 제목, type: string }
+          - { name: description, label: 설명, type: text }
+      - name: education
+        label: 학업
+        type: object
+        list: true
+        fields:
+          - { name: title, label: 학위/과정, type: string }
+          - { name: description, label: 설명, type: text }
+      - name: awards
+        label: 수상 및 장학
+        type: object
+        list: true
+        fields:
+          - { name: title, label: 수상명, type: string }
+          - { name: description, label: 설명, type: text }
