@@ -1,4 +1,5 @@
 {
+  "bold_names": ["Dongwon Seo"],
   "profile": {
     "name": "서동원 | Dongwon Seo",
     "english_name": "Dongwon Seo",
@@ -14,48 +15,54 @@
     {
       "year": "2024",
       "title": "Scott–Russel linkage-based triboelectric self-powered sensor for contact material-independent force sensing and tactile recognition",
-      "authors": "<strong> Dongwon Seo </strong>, Jimin Kong, and Jihoon Chung*",
-      "journal": "<em> Small </em> (2023 IF: 13.0, JCR Top 10%) ",
+      "authors": "Dongwon Seo, Jimin Kong, and Jihoon Chung*",
+      "journal_name": "Small",
+      "journal_info": "(2023 IF: 13.0, JCR Top 10%)",
       "link_text": "DOI",
       "link_url": "https://onlinelibrary.wiley.com/doi/10.1002/smll.202403394"
     },
     {
       "year": "2025",
       "title": "Vertical Contact/Separation Triboelectric Generator Utilizing Surface Characteristics of Metal-Organic Frameworks",
-      "authors": "<strong> Kyoung-Hwan Kim</strong>, Jimin Kong, <strong>Dongwon Seo</strong>, and Jihoon Chung*",
-      "journal": "<em> Journal of the Korean Society of Manufacturing Process Engineers (KCI) </em>",
+      "authors": "Kyoung-Hwan Kim, Jimin Kong, Dongwon Seo, and Jihoon Chung*",
+      "journal_name": "Journal of the Korean Society of Manufacturing Process Engineers (KCI)",
+      "journal_info": "",
       "link_text": "",
       "link_url": ""
     },
     {
       "year": "2025",
       "title": "Capacitive Structure-based Acoustic Triboelectric Nanogenerator for Advanced Warning Sound Recognition",
-      "authors": "<strong>Giyoung Son</strong>, <strong>Dongwon Seo</strong>, Dongjun Kim, Seokjin Kim, Jimin Kong, Kyounghwan Kim, and Jihoon Chung *",
-      "journal": "<em>Advanced Engineering Materials </em> (2023 IF: 3.4, JCR Top 50%)",
+      "authors": "Giyoung Son, Dongwon Seo, Dongjun Kim, Seokjin Kim, Jimin Kong, Kyounghwan Kim, and Jihoon Chung*",
+      "journal_name": "Advanced Engineering Materials",
+      "journal_info": "(2023 IF: 3.4, JCR Top 50%)",
       "link_text": "DOI",
       "link_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202402442?af=R"
     },
     {
       "year": "2025",
       "title": "Systematic Design Improvement of Spinning Disk-Based Triboelectric Nanogenerators for Enhancing Electrical Output",
-      "authors": "<strong>Dongwon Seo†, Seokjin Kim†, Jimin Kong†,</strong> Wonhyung Lee*, and Jihoon Chung*",
-      "journal": "<em> International Journal of Precision Engineering and Manufacturing-Green Technology </em> (2023 IF: 5.3, JCR Top 10%) ",
+      "authors": "Dongwon Seo†, Seokjin Kim†, Jimin Kong†, Wonhyung Lee*, and Jihoon Chung*",
+      "journal_name": "International Journal of Precision Engineering and Manufacturing-Green Technology",
+      "journal_info": "(2023 IF: 5.3, JCR Top 10%)",
       "link_text": "DOI",
       "link_url": "https://link.springer.com/article/10.1007/s40684-025-00740-1"
     },
     {
       "year": "2025",
       "title": "Particulate Static Effect Induced Electricity Generation Inspired by Tesla Turbine",
-      "authors": "<strong>Seh-Hoon Chung†,  Dongwon Seo†</strong>, Hyungseok Yong, Sunghan Kim, Zong-Hong Lin, Sangmin Lee*, and Jihoon Chung*",
-      "journal": "<em> Advanced Energy Materials </em> (2024 IF: 26.0, JCR Top 2.5%)  ",
+      "authors": "Seh-Hoon Chung†, Dongwon Seo†, Hyungseok Yong, Sunghan Kim, Zong-Hong Lin, Sangmin Lee*, and Jihoon Chung*",
+      "journal_name": "Advanced Energy Materials",
+      "journal_info": "(2024 IF: 26.0, JCR Top 2.5%)",
       "link_text": "DOI",
       "link_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202506275"
     },
     {
-      "year": "2025 ",
+      "year": "2025",
       "title": "UiO-66-NH2 Enabled Dry Solid Lubrication for Enhancing the Mechanical Stability and Electrical Output of a Triboelectric Nanogenerator",
-      "authors": "<strong>Kyunghwan Kim</strong>, <strong>Dongwon Seo</strong>,  Hee Jae Hwang*, and Jihoon Chung*",
-      "journal": "<em> Applied surface science </em> (2024 IF: 6.9, JCR Top 10%)",
+      "authors": "Kyunghwan Kim, Dongwon Seo, Hee Jae Hwang*, and Jihoon Chung*",
+      "journal_name": "Applied surface science",
+      "journal_info": "(2024 IF: 6.9, JCR Top 10%)",
       "link_text": "DOI",
       "link_url": "https://www.sciencedirect.com/science/article/abs/pii/S0169433226004551"
     },
@@ -63,7 +70,8 @@
       "year": "2026",
       "title": "Smart Thrust Bearing with Integrated Discharge-Based Energy Harvesting and Deep-Learning Fault Detection",
       "authors": "Jimin Kong†, Dongwon Seo†, Seokjin Kim, Giyoung Son, Kyunghwan Kim, Jang-Woo Han, Hee Jae Hwang*, and Jihoon Chung*",
-      "journal": "<em> Chemical Engineering Journal </em> (2024 IF: 13.2, JCR Top 3%)",
+      "journal_name": "Chemical Engineering Journal",
+      "journal_info": "(2024 IF: 13.2, JCR Top 3%)",
       "link_text": "DOI",
       "link_url": "https://www.sciencedirect.com/science/article/abs/pii/S1385894726045705"
     }
@@ -76,10 +84,10 @@
   "education": [
     { "title": "M.S. in Mechanical Engineering", "description": "Kumoh National Institute of Technology, 2024 - Present" },
     { "title": "B.S. in Mechanical Engineering", "description": "Kumoh National Institute of Technology, 2018 - 2024" },
-    { "title": "Exchange student ", "description": "Heilbronn university of applied sciences, Germany" }
+    { "title": "Exchange student", "description": "Heilbronn university of applied sciences, Germany" }
   ],
   "awards": [
-    { "title": "Best Paper award (우수논문상)", "description": "The Korean Society of Manufacturing Process Engineers(KSMPE)Fall Conference " },
-    { "title": "Nation President Scholarship for Graduated Student (대학원 대통령 과학 장학금)", "description": "Korea Ministry of Science and ICT (MIST) 2025~2026 " }
+    { "title": "Best Paper award (우수논문상)", "description": "The Korean Society of Manufacturing Process Engineers(KSMPE) Fall Conference" },
+    { "title": "Nation President Scholarship for Graduated Student (대학원 대통령 과학 장학금)", "description": "Korea Ministry of Science and ICT (MIST) 2025~2026" }
   ]
 }

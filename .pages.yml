@@ -4,6 +4,11 @@ content:
     type: file
     path: data.json
     fields:
+      - name: bold_names
+        label: "자동으로 굵게 표시할 저자 이름"
+        type: string
+        list: true
+        description: "여기에 적은 이름은 모든 논문 저자 목록에서 자동으로 굵게 표시됩니다. (예: Dongwon Seo)"
       - name: profile
         label: "프로필"
         type: object
@@ -49,11 +54,15 @@ content:
           - name: authors
             label: "저자"
             type: text
-            description: "굵게 표시할 이름은 <strong>이름</strong> 으로 감싸세요."
-          - name: journal
-            label: "저널 / 학회"
-            type: text
-            description: "강조색 이탤릭으로 표시할 저널명은 <em>저널명</em> 으로 감싸세요."
+            description: "그냥 평문으로 입력하세요. 위에서 지정한 이름은 자동으로 굵게 표시됩니다."
+          - name: journal_name
+            label: "저널 / 학회 이름"
+            type: string
+            description: "이 이름은 자동으로 강조 서식(이탤릭 색상)으로 표시됩니다."
+          - name: journal_info
+            label: "저널 추가 정보"
+            type: string
+            description: "예) (2023 IF: 13.0, JCR Top 10%). 없으면 비워두세요."
           - name: link_text
             label: "링크 텍스트"
             type: string

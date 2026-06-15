@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderAll() {
         if (!siteData) return;
         renderProfile(siteData.profile);
-        renderPublications(siteData.publications);
+        renderPublications(siteData.publications, siteData.bold_names);
         renderList('conferences-list', siteData.conferences);
         renderList('education-list', siteData.education);
         renderList('awards-list', siteData.awards);
@@ -54,16 +54,30 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('footer-name').innerHTML = data.english_name;
     }
 
-    function renderPublications(data) {
+    // 평문 저자 문자열에서 지정된 이름들을 자동으로 굵게 처리
+    function boldAuthors(text, names) {
+        let html = text || '';
+        (names || []).forEach((n) => {
+            if (!n) return;
+            const escaped = n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            html = html.replace(new RegExp(escaped, 'g'), '<strong>' + n + '</strong>');
+        });
+        return html;
+    }
+
+    function renderPublications(data, boldNames) {
         const container = document.getElementById('publications-container');
         if (!container) return;
         container.innerHTML = (data || []).map((item) => {
-            const styledJournal = item.journal.replace(/<em>(.*?)<\/em>/g, '<span class="journal-name">$1</span>');
+            const name = (item.journal_name || '').trim();
+            const info = (item.journal_info || '').trim();
+            const styledJournal = (name ? `<span class="journal-name">${name}</span>` : '') + (info ? ' ' + info : '');
+            const authorsHtml = boldAuthors(item.authors, boldNames);
             return `
             <div class="publication-card relative">
                 <div>
                     <p class="publication-title">${item.title}</p>
-                    <p class="publication-authors">${item.authors}</p>
+                    <p class="publication-authors">${authorsHtml}</p>
                     <p class="publication-journal">${styledJournal}</p>
                 </div>
                 <div class="publication-meta">
