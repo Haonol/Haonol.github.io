@@ -90,15 +90,23 @@
   "conferences": [
     {
       "title": "Pantograph Structure based Self-powered Force Sensor",
-      "description": "SPIE in Los Angeles 2024"
+      "description": "SPIE in Los Angeles 2024 (2024.08.20)"
     },
     {
       "title": "Optimized Spinning-Wheel Design for Enhanced Electrical Output",
-      "description": "KSMPE Fall Conference 2024"
+      "description": "KSMPE Fall Conference 2024 (2024.11.27)"
     },
     {
-      "title": "The study of composite friction reduction utilizing Al(OH)3 and UIO-66-NH2",
-      "description": "KSCM fall Conference 2025"
+      "title": "The study of composite friction reduction utilizing Hierarchy Structure and UIO-66-NH2",
+      "description": "KSCM fall Conference 2025 (2025.11.19)"
+    },
+    {
+      "title": "Telsa turbine based Particulate Electrostatic Generator",
+      "description": "ICAE 2025 (2025.11.28)"
+    },
+    {
+      "title": "UiO-66-NH2@CNT based Ionvoltaic Self-Powered Gas Sensor",
+      "description": "MRS 2026 (2026.04.28)"
     }
   ],
   "education": [
